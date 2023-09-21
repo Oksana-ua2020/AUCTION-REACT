@@ -42,36 +42,6 @@ body {
   padding: 0;
 }
 
-.header {
-  border: 1px solid maroon;
-  margin: 0;
-  padding: 0 5vw;
-  height: 74px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background: ghostwhite;
-  color: ghostwhite;
-}
-
-.header-logo-wrap {
-  display: flex;
-  background-color: ghostwhite;
-
-}
-
-.logo {
-  margin: 0;
-  padding: 0;
-  color: maroon;
-  font-kerning: normal;
-  font-family: "Autor";
-  font-weight: 100;
-  font-style: initial;
-  font-size: 300%;
-  text-align: left;
-  padding-left: 30px;
-}
 
 .search-wrap {
   display: flex;
