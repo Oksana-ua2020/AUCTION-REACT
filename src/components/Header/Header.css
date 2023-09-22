@@ -1,45 +1,123 @@
 .header {
-    border: 1px solid maroon;
-    margin: 0;
-    padding: 0 5vw;
-    height: 74px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: ghostwhite;
-    color: ghostwhite;
-  }
-  
-  .header-logo-wrap {
-    display: flex;
-    background-color: ghostwhite;
-  
-  }
-  
-  .logo {
-    margin: 0;
-    padding: 0;
-    color: maroon;
-    font-kerning: normal;
-    font-family: "Autor";
-    font-weight: 100;
-    font-style: initial;
-    font-size: 300%;
-    text-align: left;
-    padding-left: 30px;
-  }
+  border: 1px solid maroon;
+  margin: 0;
+  padding: 0 5vw;
+  height: 74px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: ghostwhite;
+  color: ghostwhite;
+}
 
-  .search-wrap {
-    display: flex;
-    border: 1px solid black;
-    width: 500px;
-  }
-  
-  .search {
-    flex-grow: 1;
-    height: 40px;
-    justify-content: flex-end;
-    border: none;
-    padding-left: .5rem;
-  }
-  
+.header-logo-wrap {
+  display: flex;
+  background-color: ghostwhite;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  color: maroon;
+  font-kerning: normal;
+  font-family: "Autor";
+  font-weight: 100;
+  font-style: initial;
+  font-size: 300%;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.search-wrap {
+  display: flex;
+  border: 1px solid black;
+  width: 500px;
+}
+
+.search {
+  flex-grow: 1;
+  height: 40px;
+  justify-content: flex-end;
+  border: none;
+  padding-left: 0.5rem;
+}
+
+.seek1,
+.seek2 {
+  border: none;
+  font-family: "Autor";
+  font-size: 100%;
+}
+
+.seek2 {
+  background-color: goldenrod;
+  cursor: pointer;
+  width: 75px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 100%;
+}
+
+.header-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 75px;
+}
+
+.exchange-rates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.exchange-rates__item__ua,
+.exchange-rates__item__us,
+.exchange-rates__item__eu {
+  width: 100px;
+  height: 20px;
+  padding: 0rem 1rem;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.exchange-rates__item__ua {
+  /* background-image: url(img/ua.png); */
+  margin-left: 2rem;
+}
+
+.exchange-rates__item__us {
+  /* background-image: url(img/us.png); */
+  margin-left: 2rem;
+}
+
+.exchange-rates__item__eu {
+  /* background-image: url(img/eu.png); */
+  margin-left: 2rem;
+}
+
+.exchange-rates__link {
+  color: black;
+  text-decoration: none;
+}
+
+.exchange-rates__item__ua:hover,
+.exchange-rates__item__us:hover,
+.exchange-rates__item__eu:hover {
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.exchange-rates-wrap {
+  padding: 1px;
+}
+
