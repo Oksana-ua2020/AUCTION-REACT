@@ -1,0 +1,22 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    flex-shrink: 0;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer-item {
+    color: maroon;
+    flex-wrap: wrap;
+    font-style: unset;
+    align-items: flex-end;
+  }
+  
+  

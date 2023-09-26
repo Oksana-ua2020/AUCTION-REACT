@@ -75,7 +75,7 @@
 .exchange-rates__item__ua,
 .exchange-rates__item__us,
 .exchange-rates__item__eu {
-  width: 100px;
+  width: 80px;
   height: 20px;
   padding: 0rem 1rem;
   box-sizing: border-box;
@@ -91,17 +91,17 @@
 }
 
 .exchange-rates__item__ua {
-  /* background-image: url(img/ua.png); */
+  background-image: url(/public/img/ua.png);
   margin-left: 2rem;
 }
 
 .exchange-rates__item__us {
-  /* background-image: url(img/us.png); */
+  background-image: url(/public/img/us.png);
   margin-left: 2rem;
 }
 
 .exchange-rates__item__eu {
-  /* background-image: url(img/eu.png); */
+  background-image: url(/public/img/eu.png);
   margin-left: 2rem;
 }
 
@@ -121,3 +121,11 @@
   padding: 1px;
 }
 
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: none;
+  font-family: "Times New Roman";
+  font-size: 100%;
+}

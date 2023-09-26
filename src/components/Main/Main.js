@@ -1,8 +1,9 @@
 import React from 'react';
+import './Main.css'
 
 function Main() {
     return (
-        <div>
+        <main>
         <form class="contant-main">
             <div class="container">
                 <aside class="aside-main">
@@ -23,7 +24,7 @@ function Main() {
                 </section>
             </div>
         </form>
-        </div>
+        </main>
     );
 }
 
