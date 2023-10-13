@@ -44,16 +44,16 @@ function Header() {
         </div>
       </div>
       <nav className="navigation">
-        <div>
+        <div className = "navigation__item">
           <a href="#s">Поддержка</a>
         </div>
-        <div>
+        <div className = "navigation__item">
           <a href="#s">Продать</a>
         </div>
-        <div>
+        <div className = "navigation__item">
           <a href="#s">Вход</a>
         </div>
-        <div>
+        <div className = "navigation__item">
           <a href="#s">Регистрация</a>
         </div>
       </nav>

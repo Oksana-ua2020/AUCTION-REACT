@@ -31,7 +31,6 @@
   font-family: "Autor";
   font-weight: 100;
   font-style: initial;
-  font-size: 200%;
   text-align: left;
   padding-left: 30px;
 }
@@ -129,4 +128,8 @@
   border: none;
   font-family: "Times New Roman";
   font-size: 100%;
+}
+
+.navigation__item {
+  padding: 0 5px;
 }
