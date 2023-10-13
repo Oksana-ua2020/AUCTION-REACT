@@ -1,7 +1,6 @@
 .header {
   border: 1px solid maroon;
   margin: 0;
-  padding: 0 5vw;
   height: 74px;
   display: flex;
   justify-content: space-around;
@@ -11,19 +10,28 @@
 }
 
 .header-logo-wrap {
+  width: 30%;
+  height: 100%;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   background-color: ghostwhite;
 }
 
+
+.header-logo-wrap img {
+  width: 30%;
+}
 .logo {
   margin: 0;
   padding: 0;
+  width: 40%;
   color: maroon;
   font-kerning: normal;
   font-family: "Autor";
   font-weight: 100;
   font-style: initial;
-  font-size: 300%;
+  font-size: 200%;
   text-align: left;
   padding-left: 30px;
 }
@@ -31,12 +39,11 @@
 .search-wrap {
   display: flex;
   border: 1px solid black;
-  width: 500px;
+  width: 40%;
 }
 
 .search {
   flex-grow: 1;
-  height: 40px;
   justify-content: flex-end;
   border: none;
   padding-left: 0.5rem;
@@ -52,7 +59,7 @@
 .seek2 {
   background-color: goldenrod;
   cursor: pointer;
-  width: 75px;
+  width: 25%;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 100%;
 }
@@ -62,8 +69,6 @@
   flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 400px;
-  height: 75px;
 }
 
 .exchange-rates {
@@ -75,9 +80,6 @@
 .exchange-rates__item__ua,
 .exchange-rates__item__us,
 .exchange-rates__item__eu {
-  width: 80px;
-  height: 20px;
-  padding: 0rem 1rem;
   box-sizing: border-box;
   background-size: contain;
   background-repeat: no-repeat;
@@ -88,21 +90,20 @@
   border: 1px solid transparent;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  font-size: 2ex;
+  color: black;
 }
 
 .exchange-rates__item__ua {
   background-image: url(/public/img/ua.png);
-  margin-left: 2rem;
 }
 
 .exchange-rates__item__us {
   background-image: url(/public/img/us.png);
-  margin-left: 2rem;
 }
 
 .exchange-rates__item__eu {
   background-image: url(/public/img/eu.png);
-  margin-left: 2rem;
 }
 
 .exchange-rates__link {
