@@ -1,0 +1,17 @@
+.aside-main {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: aqua;
+  }
+
+  .aside-main {
+    width: 25%;
+  }
+  
+  .selectQuantityPict {
+    height: 50px;
+    margin: 20px;
+  }
+

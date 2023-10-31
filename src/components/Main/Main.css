@@ -12,30 +12,18 @@
     margin-bottom: 50px;
   }
   
-  .aside-main, .contant {
+  .contant {
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-  }
-  
-  .aside-main {
-    width: 25%;
-  }
-  
-  .contant {
     width: 100%;
     margin-right: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-
-  .selectQuantityPict {
-    height: 50px;
-    margin: 20px;
-  }
-
+  
   .pic {
     width: 200px;
     height: 200px;
